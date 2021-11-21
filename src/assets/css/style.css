@@ -1,0 +1,99 @@
+.body {
+  height: 100%;
+  width: 100%;
+}
+.font-link {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.min-vh-90 {
+  height: 90vh;
+}
+.w-40 {
+  width: 40vw;
+}
+.roundeds {
+  border-radius: 20px;
+}
+.height20 {
+  height: 5%;
+  width: 30%;
+}
+
+.fs8 {
+  font-size: smaller;
+}
+.border-green {
+  border: 2px solid #00ff97 !important;
+}
+.bg-secondarys {
+  background-color: #242424;
+}
+.bg-darks {
+  background-color: #121212;
+}
+
+input[type="text"],
+input[type="password"] {
+  background: transparent !important;
+  border-radius: 20px;
+  width: 100%;
+  color: #fff !important;
+  border: 2px solid #00ff97 !important;
+}
+
+input::-webkit-input-placeholder {
+  font-size: smaller;
+}
+.bg-green {
+  background-color: #00ff97;
+}
+.btn-text {
+  color: #121212;
+}
+
+@media (min-width: 576px) {
+  .rounded-nav {
+    border-radius: 50rem !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .rounded-nav .nav-link {
+    border-radius: 50rem !important;
+  }
+}
+.nav-pills {
+  background-color: #121212 !important;
+  color: #fff !important;
+}
+.nav-pills .nav-link {
+  color: #fff;
+  /* for text color */
+}
+.text-uppercase {
+  letter-spacing: 0.1em;
+}
+button.active.nav-link {
+  background-color: #00ff97 !important;
+  color: #121212 !important;
+}
+
+input[type="checkbox"] {
+  background-color: #fff;
+  width: 15px;
+  color: #00ff97;
+}
+input[type="checkbox"]:checked {
+  background-color: #00ff97;
+}
+.tnc {
+  color: #00ff97;
+  text-decoration: none;
+}
+.signup {
+  background-color: #00ff97;
+  border: 2px solid #00ff97 !important;
+  color: #121212;
+  font-weight: bold;
+}

@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { SignUp } from './pages/auth/SignUp';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/css/style.css';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+toast.configure({ closeButton: false, closeOnClick: true, className: 'toaster', autoClose: 2500 });
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <SignUp />,
   document.getElementById('root')
 );
 
